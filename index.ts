@@ -1,5 +1,5 @@
-import * as ethUtil from 'ethereumjs-util';
-import * as ethAbi from 'ethereumjs-abi';
+import * as ethUtil from 'kapoiojs-util';
+import * as ethAbi from 'kapoiojs-abi';
 import * as nacl from 'tweetnacl';
 import * as naclUtil from 'tweetnacl-util';
 
