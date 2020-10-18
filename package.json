@@ -1,5 +1,5 @@
 {
-  "name": "eth-sig-util",
+  "name": "kap-sig-util",
   "version": "2.5.3",
   "description": "A few useful functions for signing ethereum data",
   "main": "index.js",
@@ -17,18 +17,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/eth-sig-util.git"
+    "url": "git+ssh://git@github.com/Kapoio/kap-sig-util.git"
   },
   "keywords": [
-    "ethereum",
+    "kapoio",
     "signature"
   ],
   "author": "Dan Finlay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-sig-util/issues"
+    "url": "https://github.com/Kapoio/kap-sig-util/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-sig-util#readme",
+  "homepage": "https://github.com/Kapoio/kap-sig-util#readme",
   "resolutions": {
     "smokestack/minimist": "^1.2.5",
     "smokestack/shoe/sockjs/node-uuid": "^1.4.4"
@@ -36,8 +36,8 @@
   "dependencies": {
     "buffer": "^5.2.1",
     "elliptic": "^6.4.0",
-    "ethereumjs-abi": "0.6.5",
-    "ethereumjs-util": "^5.1.1",
+    "kapoiojs-abi": "git+https://github.com/Kapoio/kapoiojs-abi.git#master",
+    "kapoiojs-util": "git+https://github.com/Kapoio/kapoiojs-util.git#master",
     "tweetnacl": "^1.0.0",
     "tweetnacl-util": "^0.15.0"
   },
